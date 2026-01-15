@@ -1,0 +1,139 @@
+
+# === Asset Library ===
+
+# === Items ===
+mm_items.Bench.Grinding_Table.name = Grinding Table
+mm_items.Bench.Grinding_Table.description = A sturdy table equipped with grinding tools for pulverizing Ores and Bars into fine Powders for use in Crafting and Metallurgy.
+
+# === Tools ===
+mm_items.Tool_Pickaxe_Bronze.name = Bronze Pickaxe
+mm_items.Tool_Pickaxe_Bronze.description = A sturdy Bronze Pickaxe, just as strong as Iron, and slightly more durable.
+mm_items.Tool_Pickaxe_Steel.name = Steel Pickaxe
+mm_items.Tool_Pickaxe_Steel.description = A durable Steel Pickaxe, just as strong as Cobalt, but more durable.
+
+# === Bench ===
+mm_items.Bench.Grinding_Table.Pulverizing.Tab.name = Pulverizing
+mm_items.Bench.Grinding_Table.Mixing.Tab.name = Mixing
+mm_items.Bench.Grinding_Table.Recipies.Tab.name = Research Recipes
+mm_items.Bench.Grinding_Table.upgrade_1.Description = Increases crafting speed by 20%.
+mm_items.Bench.Grinding_Table.upgrade_2.Description = Increases crafting speed by 20%, 40% Total.
+
+# === Powders ===
+mm_items.Powder.Copper.name = Powdered Copper
+mm_items.Powder.Copper.description = Fine Copper powder used in Crafting and Metallurgy.
+mm_items.Powder.Coal.name = Powdered Coal
+mm_items.Powder.Coal.description = Fine Carbon powder used for Fuel, Crafting and Metallurgy.
+mm_items.Powder.Tin.name = Powdered Tin
+mm_items.Powder.Tin.description = Fine Tin powder used in Crafting and Metallurgy.
+mm_items.Powder.Zinc.name = Powdered Zinc
+mm_items.Powder.Zinc.description = Fine Zinc powder used in Medicine, Crafting and Metallurgy.
+mm_items.Powder.Nickel.name = Powdered Nickel
+mm_items.Powder.Nickel.description = Fine Nickel powder used in Crafting and Metallurgy.
+mm_items.Powder.Lead.name = Powdered Lead
+mm_items.Powder.Lead.description = Fine Lead powder used in Crafting and Metallurgy.
+mm_items.Powder.Iron.name = Powdered Iron
+mm_items.Powder.Iron.description = Fine Iron powder used in Crafting and Metallurgy.
+mm_items.Powder.Gold.name = Powdered Gold
+mm_items.Powder.Gold.description = Fine Gold powder used in Crafting and Metallurgy.
+mm_items.Powder.Silver.name = Powdered Silver
+mm_items.Powder.Silver.description = Fine Silver powder used in Crafting and Metallurgy.
+mm_items.Powder.Cobalt.name = Powdered Cobalt
+mm_items.Powder.Cobalt.description = Fine Cobalt powder used in Crafting and Metallurgy.
+mm_items.Powder.Onyxium.name = Powdered Onyxium
+mm_items.Powder.Onyxium.description = Fine Onyxium powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Mythril.name = Powdered Mythril
+mm_items.Powder.Mythril.description = Fine Mythril powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Adamantine.name = Powdered Adamantine
+mm_items.Powder.Adamantine.description = Fine Adamantine powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Prisma.name = Powdered Prisma
+mm_items.Powder.Prisma.description = Fine Prisma powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Thorium.name = Powdered Thorium
+mm_items.Powder.Thorium.description = Fine Thorium powder used in advanced Crafting and Metallurgy.
+
+# === Mineral Powders ===
+mm_items.Powder.Charcoal.name = Powdered Charcoal
+mm_items.Powder.Charcoal.description = Fine Charcoal powder used as Fuel and in advanced Crafting and Metallurgy.
+mm_items.Powder.Quartz.name = Powdered Quartz
+mm_items.Powder.Quartz.description = Fine Quartz powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Calcite.name = Powdered Calcite
+mm_items.Powder.Calcite.description = Fine Calcite powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Basalt.name = Powdered Basalt
+mm_items.Powder.Basalt.description = Fine Basalt powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Diamond.name = Powdered Diamond
+mm_items.Powder.Diamond.description = Fine Diamond powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Emerald.name = Powdered Emerald
+mm_items.Powder.Emerald.description = Fine Emerald powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Ruby.name = Powdered Ruby
+mm_items.Powder.Ruby.description = Fine Ruby powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Sapphire.name = Powdered Sapphire
+mm_items.Powder.Sapphire.description = Fine Sapphire powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Topaz.name = Powdered Topaz
+mm_items.Powder.Topaz.description = Fine Topaz powder used in advanced Crafting and Metallurgy
+mm_items.Powder.Void_Stone.name = Powdered Void Stone
+mm_items.Powder.Void_Stone.description = Fine Void Stone powder used in advanced Crafting and Metallurgy.
+mm_items.Powder.Zephyr.name = Powdered Zephyr
+mm_items.Powder.Zephyr.description = Fine Zephyr powder used in advanced Crafting and Metallurgy.
+
+# === Alloy Powders ===
+mm_items.Powder.Bronze.name = Powdered Bronze
+mm_items.Powder.Bronze.description = Fine Bronze powder made from mixing <items is="Powder_Copper"/> and <items is="Powder_Tin"/> at a <items is="Bench_Grinding_Table"/>.
+mm_items.Powder.Electrum.name = Powdered Electrum
+mm_items.Powder.Electrum.description = Fine Electrum powder made from mixing <items is="Powder_Gold"/> and <items is="Powder_Silver"/> at a <items is="Bench_Grinding_Table"/>.
+mm_items.Powder.Steel.name = Powdered Steel
+mm_items.Powder.Steel.description = Fine Steel powder made from mixing <items is="Powder_Iron"/> and <items is="Powder_Coal"/> at a <items is="Bench_Grinding_Table"/>.
+mm_items.Powder.Black_Bronze.name = Powdered Black Bronze
+# mm_items.Powder.Black_Bronze.description = Fine Black Bronze powder made from mixing <items is="Powder_Bronze"/> and <items is="Powder_Electrum"/> at a <items is="Bench_Grinding_Table"/>.
+mm_items.Powder.Cupronickel.name = Powdered Cupronickel
+# mm_items.Powder.Cupronickel.description = Fine Cupronickel powder made from mixing <items is="Powder_Copper"/> and <items is="Powder_Nickel"/> at a <items is="Bench_Grinding_Table"/>.
+mm_items.Powder.Cobalt_Steel.name = Powdered Cobalt Steel
+# mm_items.Powder.Cobalt_Steel.description = Fine Cobalt Steel powder made from mixing <items is="Powder_Cobalt"/> and <items is="Powder_Steel"/> at a <items is="Bench_Grinding_Table"/>.
+mm_items.Powder.Living_Steel.description = Powdered Living Steel
+# mm_items.Powder.Living_Steel.description = Fine Living Steel powder made from mixing <items is="Powder_Thorium"/> and <items is="Powder_Electrum"/> at a <items is="Bench_Grinding_Table"/>.
+mm_items.Powder.Onyzite_Alloy.name = Powdered Onyzite Alloy
+# mm_items.Powder.Onyzite_Alloy.description = Fine Onyzite Alloy powder made from mixing <items is="Powder_Onyxium"/> and <items is="Powder_Adamantine"/> at a <items is="Bench_Grinding_Table"/>.
+mm_items.Powder.Lunar_Mythril.name = Powdered Lunar Mythril
+# mm_items.Powder.Lunar_Mythril.description = Fine Lunar Mythril powder made from mixing <items is="Powder_Mythril"/> and <items is="Powder_Onyzite"/> at a <items is="Bench_Grinding_Table"/>.
+
+# === Bars ===
+mm_items.Ingredient.Bar.Tin.name = Tin Bar
+mm_items.Ingredient.Bar.Tin.description = Can be used to craft Simple Components and Alloys, not strong enough for Tools.
+mm_items.Ingredient.Bar.Zinc.name = Zinc Bar
+mm_items.Ingredient.Bar.Zinc.description = Can be used to craft Alloys.
+mm_items.Ingredient.Bar.Nickel.name = Nickel Bar
+mm_items.Ingredient.Bar.Nickel.description = A strong metal Bar used to craft durable Tools and Alloys.
+mm_items.Ingredient.Bar.Lead.name = Lead Bar
+mm_items.Ingredient.Bar.Lead.description = A dense metal Bar used to craft simple water-tight components and Alloys.
+
+# === Alloy Bars ===
+mm_items.Ingredient.Bar.Steal = Steel Bar
+mm_items.Ingredient.Bar.Steel.description = A very strong metal Bar used to craft durable Components, Tools and Armor.
+mm_items.Ingredient.Bar.Bronze.name = Bronze Bar
+mm_items.Ingredient.Bar.Bronze.description = A sturdy metal Bar used to craft Components, Tools and Alloys.
+mm_items.Ingredient.Bar.Electrum.name = Electrum Bar
+mm_items.Ingredient.Bar.Electrum.description = A precious metal Bar used to craft decorative Components and Alloys.
+mm_items.Ingredient.Bar.Cupronickel.name = Cupronickel Bar
+mm_items.Ingredient.Bar.Cupronickel.description = A strong metal Bar used to craft Heat-Resistant Components and Alloys.
+mm_items.Ingredient.Bar.Cobalt_Steel.name = Cobalt Steel Bar
+mm_items.Ingredient.Bar.Cobalt_Steel.description = An extremely strong metal Bar used to craft high-tier Components, Tools and Armor.
+mm_items.Ingredient.Bar.Living_Steel.name = Living Steel Bar
+mm_items.Ingredient.Bar.Living_Steel.description = A Rare Magical metal Bar used to craft Armor and Tools that regenerate Durability.
+mm_items.Ingredient.Bar.Onyzite_Alloy.name = Onyzite Alloy Bar
+mm_items.Ingredient.Bar.Onyzite_Alloy.description = A Legendary metal Bar used to craft high-tier Components, Tools and Armor.
+
+
+# === Ores ===
+mm_items.Ore_Coal.name = Coal Ore
+mm_items.Ore_Coal_Stone.name = Coal Ore - Stone
+mm_items.Ore_Coal.description = Can be used as Fuel or pulverized to make Alloys.
+mm_items.Ore_Tin.name = Tin Ore
+mm_items.Ore_Tin_Stone.name = Tin Ore - Stone
+mm_items.Ore_Tin.description = Can be smelted into a <items is="Ingredient_Bar_Copper"/> at a <items is="Bench_Furnace"/>.
+mm_items.Ore_Zinc.name = Zinc Ore
+mm_items.Ore_Zinc_Stone.name = Zinc Ore - Stone
+mm_items.Ore_Zinc.description = Can be smelted into a <items is="Ingredient_Bar_Copper"/> at a <items is="Bench_Furnace"/>.
+mm_items.Ore_Nickel.name = Nickel Ore
+mm_items.Ore_Nickel_Stone.name = Nickel Ore - Stone
+mm_items.Ore_Nickel.description = Can be smelted into a <items is="Ingredient_Bar_Nickel"/> at a <items is="Bench_Furnace"/>.
+mm_items.Ore_Lead.name = Lead Ore
+mm_items.Ore_Lead_Stone.name = Lead Ore - Stone
+mm_items.Ore_Lead.description = Can be smelted into a <items is="Ingredient_Bar_Lead"/> at a <items is="Bench_Furnace"/>.

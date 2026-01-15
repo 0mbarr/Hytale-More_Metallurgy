@@ -1,0 +1,20 @@
+{
+  "Group": "Ombarr",
+  "Name": "More_Metallurgy",
+  "Version": "1.0.0",
+  "Description": "Adds Metallurgy and Alloy Smelting to the game",
+  "Authors": [
+    {
+      "Name": "0mbarr",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

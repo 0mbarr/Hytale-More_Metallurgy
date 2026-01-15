@@ -1,0 +1,91 @@
+{
+  "TranslationProperties": {
+    "Name": "server.mm_items.Tool_Pickaxe_Steel.name",
+    "Description": "server.mm_items.Tool_Pickaxe_Steel.description"
+  },
+  "Parent": "Tool_Pickaxe_Crude",
+  "Icon": "Icons/ItemsGenerated/Tool_Pickaxe_Steel.png",
+  "Quality": "Rare",
+  "ItemLevel": 35,
+  "Model": "Items/Tools/Pickaxe/Cobalt.blockymodel",
+  "Texture": "Items/Tools/Pickaxe/Steel_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Steel",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Rocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 0.17,
+        "GatherType": "VolcanicRocks"
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ],
+        "DurabilityLossOnHit": 0.25
+      }
+    ]
+  },
+  "MaxDurability": 350.0,
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      45,
+      270,
+      0
+    ],
+    "Translation": [
+      25,
+      -25
+    ]
+  }
+}

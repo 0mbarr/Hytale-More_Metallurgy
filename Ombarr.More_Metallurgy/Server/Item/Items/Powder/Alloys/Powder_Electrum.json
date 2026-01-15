@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "server.mm_items.Powder_Electrum.name",
+    "Description": "server.mm_items.Powder_Electrum.description"
+  },
+  "Categories": [
+    "Ingredients.Metallurgy"
+  ],
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Icon": "Icons/ItemsGenerated/Powder_Electrum.png",
+  "MaxStack": 200,
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "DropOnDeath": true,
+  "Model": "Resources/Powders/PowderedMetal.blockymodel",
+  "Texture": "Resources/Powders/Alloys/Powder_Electrum.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "Recipe": {
+    "TimeSeconds": 3,
+    "OutputQuantity": 3,
+    "Input": [
+      {
+        "ItemId": "Powder_Gold",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Powder_Silver",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Metallurgy_Mixing"
+        ],
+        "Id": "Grinding_Bench"
+      }
+    ]
+  }
+}

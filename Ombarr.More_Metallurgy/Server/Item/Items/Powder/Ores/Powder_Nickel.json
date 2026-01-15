@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "server.mm_items.Powder_Nickel.name",
+    "Description": "server.mm_items.Powder_Nickel.description"
+  },
+  "Categories": [
+    "Ingredients.Metallurgy"
+  ],
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Icon": "Icons/ItemsGenerated/Powder_Nickel.png",
+  "MaxStack": 200,
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "DropOnDeath": true,
+  "Model": "Resources/Powders/PowderedMetal.blockymodel",
+  "Texture": "Resources/Powders/Ores/Powder_Nickel.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "Recipe": {
+    "TimeSeconds": 10,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Nickel",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Metallurgy_Pulverizing"
+        ],
+        "Id": "Grinding_Bench"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Input": [
+    {
+      "ItemId": "Powder_Zinc"
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Zinc"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Zinc"
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Furnace"
+    }
+  ],
+  "TimeSeconds": 2
+}

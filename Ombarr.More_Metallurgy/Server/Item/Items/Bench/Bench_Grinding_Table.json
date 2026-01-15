@@ -1,0 +1,130 @@
+{
+  "TranslationProperties": {
+    "Name": "server.mm_items.Bench.Grinding_Table.name",
+    "Description": "server.mm_items.Bench.Grinding_Table.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Bench_Grinding_Table.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 10
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Rubble"
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Resources/Benches/Blending_Table.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Benches/Grinding_Table.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Workbench",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Id": "Grinding_Bench",
+      "Type": "Crafting",
+      "LocalOpenSoundEventId": "SFX_Soft_Break",
+      "LocalCloseSoundEventId": "SFX_Gravel_Break",
+      "CompletedSoundEventId": "SFX_Tombstone_Break",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Categories": [
+        {
+          "Id": "Metallurgy_Pulverizing",
+          "Icon": "Icons/CraftingCategories/Mortar.png",
+          "Name": "server.mm_items.Bench.Grinding_Table.Pulverizing.Tab.name"
+        },
+        {
+          "Id": "Metallurgy_Mixing",
+          "Icon": "Icons/CraftingCategories/Scale.png",
+          "Name": "server.mm_items.Bench.Grinding_Table.Mixing.Tab.name"
+        },
+        {
+          "Id": "Metallurgy_Recepies",
+          "Icon": "Icons/CraftingCategories/Paper.png",
+          "Name": "server.mm_items.Bench.Grinding_Table.Recipe.Tab.name"
+        }
+      ]
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Alchemy_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Alchemy_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C583E",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.435,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11.4,
+      -18.6
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemLevel": 9,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Model": "Resources/Benches/Blending_Table.blockymodel",
+  "Texture": "Resources/Benches/Grinding_Table.png"
+}

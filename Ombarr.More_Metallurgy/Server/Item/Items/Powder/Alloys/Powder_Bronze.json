@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "server.mm_items.Powder_Bronze.name",
+    "Description": "server.mm_items.Powder_Bronze.description"
+  },
+  "Categories": [
+    "Ingredients.Metallurgy"
+  ],
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Icon": "Icons/ItemsGenerated/Powder_Bronze.png",
+  "MaxStack": 200,
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "DropOnDeath": true,
+  "Model": "Resources/Powders/PowderedMetal.blockymodel",
+  "Texture": "Resources/Powders/Alloys/Powder_Bronze.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "Recipe": {
+    "TimeSeconds": 3,
+    "OutputQuantity": 3,
+    "Input": [
+      {
+        "ItemId": "Powder_Copper",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Powder_Tin",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Metallurgy_Mixing"
+        ],
+        "Id": "Grinding_Bench"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "server.mm_items.Ore_Coal.name",
+    "Description": "server.mm_items.Ore_Coal.description"
+  },
+  "Categories": [
+    "Blocks.Ores"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Powder_Charcoal",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 10
+  },
+  "Model": "Resources/Ores/Ore_Large.blockymodel",
+  "Texture": "Resources/Ores/Ore_Textures/Coal.png",
+  "Quality": "Common",
+  "ItemLevel": 5,
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.57323,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      -3.6,
+      -16.2
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Ore"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "MaxStack": 25,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "DropOnDeath": true,
+  "FuelQuality": 16,
+  "Icon": "Icons/ItemsGenerated/Ore_Coal.png"
+}

@@ -1,0 +1,62 @@
+{
+  "TranslationProperties": {
+    "Name": "server.mm_items.Powder_Charcoal.name",
+    "Description": "server.mm_items.Powder_Charcoal.description"
+  },
+  "Categories": [
+    "Ingredients.Metallurgy"
+  ],
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Icon": "Icons/ItemsGenerated/Powder_Coal.png",
+  "MaxStack": 200,
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "DropOnDeath": true,
+  "Model": "Resources/Powders/PowderedMetal.blockymodel",
+  "Texture": "Resources/Powders/Ores/Powder_Charcoal.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "FuelQuality": 12,
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Charcoal",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Metallurgy_Pulverizing"
+        ],
+        "Id": "Grinding_Bench"
+      }
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    }
+  ]
+}

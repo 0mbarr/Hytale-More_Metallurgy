@@ -1,0 +1,22 @@
+{
+  "Input": [
+    {
+      "ItemId": "Powder_Silver"
+    }
+  ],
+  "Output": [
+    {
+      "ItemId": "Ingredient_Bar_Silver"
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Bar_Silver"
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Furnace"
+    }
+  ],
+  "TimeSeconds": 2
+}

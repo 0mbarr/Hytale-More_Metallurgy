@@ -1,0 +1,61 @@
+{
+  "TranslationProperties": {
+    "Name": "server.mm_items.Powder_Steel.name",
+    "Description": "server.mm_items.Powder_Steel.description"
+  },
+  "Categories": [
+    "Ingredients.Metallurgy"
+  ],
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Icon": "Icons/ItemsGenerated/Powder_Steel.png",
+  "MaxStack": 200,
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "DropOnDeath": true,
+  "Model": "Resources/Powders/PowderedMetal.blockymodel",
+  "Texture": "Resources/Powders/Alloys/Powder_Steel.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -15
+    ]
+  },
+  "Quality": "Common",
+  "ItemLevel": 10,
+  "PlayerAnimationsId": "Block",
+  "Recipe": {
+    "TimeSeconds": 5,
+    "OutputQuantity": 1,
+    "Input": [
+      {
+        "ItemId": "Powder_Coal",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Powder_Iron",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Metallurgy_Mixing"
+        ],
+        "Id": "Grinding_Bench"
+      }
+    ]
+  }
+}

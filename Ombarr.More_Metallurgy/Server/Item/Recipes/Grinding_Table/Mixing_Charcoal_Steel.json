@@ -1,0 +1,35 @@
+{
+    "Input": [
+        {
+            "ItemId": "Powder_Charcoal",
+            "Quantity": 3
+        },
+        {
+            "ItemId": "Powder_Iron",
+            "Quantity": 1
+        }
+    ],
+    "Output": [
+        {
+          "ItemId": "Powder_Steel"
+        }
+    ],
+    "PrimaryOutput": {
+        "ItemId": "Powder_Steel"
+    },
+    "BenchRequirement": [
+        {
+        "Type": "Crafting",
+        "Categories": [
+            "Metallurgy_Mixing"
+        ],
+        "Id": "Grinding_Bench"
+        }
+    ],
+    "TimeSeconds": 20
+}
+
+
+    
+    
+    
